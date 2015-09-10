@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	common "github.com/influxdb/telegraf/plugins/system/ps/common"
+	common "github.com/toorop/telegraf/plugins/system/ps/common"
 )
 
 const (

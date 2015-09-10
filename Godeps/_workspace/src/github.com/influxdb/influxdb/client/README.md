@@ -1,6 +1,6 @@
 # InfluxDB Client
 
-[![GoDoc](https://godoc.org/github.com/influxdb/influxdb?status.svg)](http://godoc.org/github.com/influxdb/influxdb/client)
+[![GoDoc](https://godoc.org/github.com/influxdb/influxdb?status.svg)](http://godoc.org/github.com/toorop/influxdb/client)
 
 ## Description
 
@@ -44,7 +44,7 @@ the configuration below.
 ```go
 package main
 
-import "github.com/influxdb/influxdb/client"
+import "github.com/toorop/influxdb/client"
 import "net/url"
 
 const (
@@ -198,7 +198,7 @@ for i, row := range res[0].Series[0].Values {
 ## Go Docs
 
 Please refer to
-[http://godoc.org/github.com/influxdb/influxdb/client](http://godoc.org/github.com/influxdb/influxdb/client)
+[http://godoc.org/github.com/toorop/influxdb/client](http://godoc.org/github.com/toorop/influxdb/client)
 for documentation.
 
 ## See Also

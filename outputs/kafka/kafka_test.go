@@ -3,8 +3,8 @@ package kafka
 import (
 	"testing"
 
-	"github.com/influxdb/telegraf/testutil"
 	"github.com/stretchr/testify/require"
+	"github.com/toorop/telegraf/testutil"
 )
 
 func TestConnectAndWrite(t *testing.T) {

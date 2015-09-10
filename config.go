@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdb/telegraf/outputs"
-	"github.com/influxdb/telegraf/plugins"
 	"github.com/naoina/toml"
 	"github.com/naoina/toml/ast"
+	"github.com/toorop/telegraf/outputs"
+	"github.com/toorop/telegraf/plugins"
 )
 
 // Duration just wraps time.Duration

@@ -5,7 +5,7 @@ package system
 import (
 	"fmt"
 
-	"github.com/influxdb/telegraf/plugins"
+	"github.com/toorop/telegraf/plugins"
 )
 
 type DockerStats struct {

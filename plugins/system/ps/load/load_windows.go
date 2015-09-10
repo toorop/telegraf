@@ -3,7 +3,7 @@
 package load
 
 import (
-	common "github.com/influxdb/telegraf/plugins/system/ps/common"
+	common "github.com/toorop/telegraf/plugins/system/ps/common"
 )
 
 func LoadAvg() (*LoadAvgStat, error) {

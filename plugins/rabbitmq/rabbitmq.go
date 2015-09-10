@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/influxdb/telegraf/plugins"
+	"github.com/toorop/telegraf/plugins"
 )
 
 const DefaultUsername = "guest"

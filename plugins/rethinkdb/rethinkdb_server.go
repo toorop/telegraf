@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/influxdb/telegraf/plugins"
-
+	"github.com/toorop/telegraf/plugins"
 	"gopkg.in/dancannon/gorethink.v1"
+
 )
 
 type Server struct {

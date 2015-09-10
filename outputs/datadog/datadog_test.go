@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdb/telegraf/testutil"
+	"github.com/toorop/telegraf/testutil"
 
-	"github.com/influxdb/influxdb/client"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/toorop/influxdb/client"
 )
 
 var (

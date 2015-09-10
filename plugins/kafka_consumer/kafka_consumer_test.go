@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	"github.com/influxdb/telegraf/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/toorop/telegraf/testutil"
 )
 
 const testMsg = "cpu_load_short,direction=in,host=server01,region=us-west value=23422.0 1422568543702900257"

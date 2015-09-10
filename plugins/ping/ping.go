@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/influxdb/telegraf/plugins"
+	"github.com/toorop/telegraf/plugins"
 )
 
 // HostPinger is a function that runs the "ping" function using a list of

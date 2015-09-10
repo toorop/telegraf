@@ -1,7 +1,7 @@
 package outputs
 
 import (
-	"github.com/influxdb/influxdb/client"
+	"github.com/toorop/influxdb/client"
 )
 
 type Output interface {

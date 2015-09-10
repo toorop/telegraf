@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/gonuts/go-shellquote"
-	"github.com/influxdb/telegraf/plugins"
 	"os/exec"
 	"sync"
+
+	"github.com/toorop/telegraf/plugins"
 )
 
 const sampleConfig = `

@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	common "github.com/influxdb/telegraf/plugins/system/ps/common"
+	common "github.com/toorop/telegraf/plugins/system/ps/common"
 )
 
 func getPageSize() (uint64, error) {

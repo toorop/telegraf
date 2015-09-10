@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/influxdb/influxdb/client"
+	"github.com/toorop/influxdb/client"
 )
 
 var localhost = "localhost"

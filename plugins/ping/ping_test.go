@@ -6,8 +6,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/influxdb/telegraf/testutil"
 	"github.com/stretchr/testify/assert"
+	"github.com/toorop/telegraf/testutil"
 )
 
 // BSD/Darwin ping output

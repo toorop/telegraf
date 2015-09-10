@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	common "github.com/influxdb/telegraf/plugins/system/ps/common"
+	common "github.com/toorop/telegraf/plugins/system/ps/common"
 )
 
 // NetIOCounters returnes network I/O statistics for every network

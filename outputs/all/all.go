@@ -1,7 +1,7 @@
 package all
 
 import (
-	_ "github.com/influxdb/telegraf/outputs/datadog"
-	_ "github.com/influxdb/telegraf/outputs/influxdb"
-	_ "github.com/influxdb/telegraf/outputs/kafka"
+	_ "github.com/toorop/telegraf/outputs/datadog"
+	_ "github.com/toorop/telegraf/outputs/influxdb"
+	_ "github.com/toorop/telegraf/outputs/kafka"
 )

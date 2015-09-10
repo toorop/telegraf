@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/influxdb/telegraf/plugins"
+	"github.com/toorop/telegraf/plugins"
 )
 
 type serverStatus struct {

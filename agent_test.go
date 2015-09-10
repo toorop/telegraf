@@ -1,11 +1,12 @@
 package telegraf
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
 
+	"github.com/stretchr/testify/assert"
+
 	// needing to load the plugins
-	_ "github.com/influxdb/telegraf/plugins/all"
+	_ "github.com/toorop/telegraf/plugins/all"
 )
 
 func TestAgent_LoadPlugin(t *testing.T) {

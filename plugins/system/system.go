@@ -2,8 +2,7 @@ package system
 
 import (
 	"github.com/cloudfoundry/gosigar"
-
-	"github.com/influxdb/telegraf/plugins"
+	"github.com/toorop/telegraf/plugins"
 )
 
 type SystemStats struct{}

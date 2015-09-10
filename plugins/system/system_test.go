@@ -5,13 +5,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/influxdb/telegraf/plugins/system/ps/cpu"
-	"github.com/influxdb/telegraf/plugins/system/ps/disk"
-	"github.com/influxdb/telegraf/plugins/system/ps/mem"
-	"github.com/influxdb/telegraf/plugins/system/ps/net"
-	"github.com/influxdb/telegraf/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/toorop/telegraf/plugins/system/ps/cpu"
+	"github.com/toorop/telegraf/plugins/system/ps/disk"
+	"github.com/toorop/telegraf/plugins/system/ps/mem"
+	"github.com/toorop/telegraf/plugins/system/ps/net"
+	"github.com/toorop/telegraf/testutil"
 )
 
 func TestSystemStats_GenerateStats(t *testing.T) {

@@ -3,9 +3,9 @@ package memcached
 import (
 	"testing"
 
-	"github.com/influxdb/telegraf/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/toorop/telegraf/testutil"
 )
 
 func TestMemcachedGeneratesMetrics(t *testing.T) {

@@ -3,8 +3,8 @@ package system
 import (
 	"fmt"
 
-	"github.com/influxdb/telegraf/plugins"
-	"github.com/influxdb/telegraf/plugins/system/ps/cpu"
+	"github.com/toorop/telegraf/plugins"
+	"github.com/toorop/telegraf/plugins/system/ps/cpu"
 )
 
 type CPUStats struct {

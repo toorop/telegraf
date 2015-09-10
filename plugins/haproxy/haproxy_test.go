@@ -5,11 +5,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/influxdb/telegraf/testutil"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"net/http"
 	"net/http/httptest"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+	"github.com/toorop/telegraf/testutil"
 )
 
 func TestHaproxyGeneratesMetricsWithAuthentication(t *testing.T) {

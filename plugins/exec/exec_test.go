@@ -2,10 +2,11 @@ package exec
 
 import (
 	"fmt"
-	"github.com/influxdb/telegraf/testutil"
+	"testing"
+
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
+	"github.com/toorop/telegraf/testutil"
 )
 
 const validJson = `

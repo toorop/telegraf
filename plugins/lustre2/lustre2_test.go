@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/influxdb/telegraf/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/toorop/telegraf/testutil"
 )
 
 // Set config file variables to point to fake directory structure instead of /proc?

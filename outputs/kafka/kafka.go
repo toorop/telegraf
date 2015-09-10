@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/Shopify/sarama"
-	"github.com/influxdb/influxdb/client"
-	"github.com/influxdb/telegraf/outputs"
+	"github.com/toorop/influxdb/client"
+	"github.com/toorop/telegraf/outputs"
 )
 
 type Kafka struct {

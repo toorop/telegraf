@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdb/telegraf/outputs"
-	"github.com/influxdb/telegraf/plugins"
+	"github.com/toorop/telegraf/outputs"
+	"github.com/toorop/telegraf/plugins"
 )
 
 type runningOutput struct {

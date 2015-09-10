@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/influxdb/telegraf",
+	"ImportPath": "github.com/toorop/telegraf",
 	"GoVersion": "go1.5",
 	"Packages": [
 		"./..."
@@ -96,7 +96,7 @@
 			"Rev": "d1e82c1ec3f15ee991f7cc7ffd5b67ff6f5bbaee"
 		},
 		{
-			"ImportPath": "github.com/influxdb/influxdb/client",
+			"ImportPath": "github.com/toorop/influxdb/client",
 			"Comment": "v0.9.3-rc1",
 			"Rev": "f4077764b2bb2b03241452d88e9db321c62bb560"
 		},

@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdb/influxdb/client"
+	"github.com/toorop/influxdb/client"
 )
 
 // BatchPoints is used to send a batch of data in a single write from telegraf

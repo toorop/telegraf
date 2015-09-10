@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdb/telegraf/plugins"
 	"github.com/prometheus/client_golang/extraction"
 	"github.com/prometheus/client_golang/model"
+	"github.com/toorop/telegraf/plugins"
 )
 
 type Prometheus struct {

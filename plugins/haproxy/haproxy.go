@@ -3,12 +3,13 @@ package haproxy
 import (
 	"encoding/csv"
 	"fmt"
-	"github.com/influxdb/telegraf/plugins"
 	"io"
 	"net/http"
 	"net/url"
 	"strconv"
 	"sync"
+
+	"github.com/toorop/telegraf/plugins"
 )
 
 //CSV format: https://cbonte.github.io/haproxy-dconv/configuration-1.5.html#9.1

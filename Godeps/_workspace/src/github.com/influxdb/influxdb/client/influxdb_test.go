@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdb/influxdb/client"
+	"github.com/toorop/influxdb/client"
 )
 
 func BenchmarkUnmarshalJSON2Tags(b *testing.B) {

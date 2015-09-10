@@ -8,9 +8,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/influxdb/influxdb/client"
-	t "github.com/influxdb/telegraf"
-	"github.com/influxdb/telegraf/outputs"
+	"github.com/toorop/influxdb/client"
+	t "github.com/toorop/telegraf"
+	"github.com/toorop/telegraf/outputs"
 )
 
 type InfluxDB struct {
@@ -70,11 +70,12 @@ func (i *InfluxDB) Connect() error {
 	var conns []*client.Client
 	for _, parsed_url := range urls {
 		c, err := client.NewClient(client.Config{
-			URL:       *parsed_url,
-			Username:  i.Username,
-			Password:  i.Password,
-			UserAgent: i.UserAgent,
-			Timeout:   i.Timeout.Duration,
+			URL:                *parsed_url,
+			Username:           i.Username,
+			Password:           i.Password,
+			UserAgent:          i.UserAgent,
+			Timeout:            i.Timeout.Duration,
+			InsecureSkipVerify: true,
 		})
 		if err != nil {
 			return err

@@ -8,9 +8,9 @@ import (
 	"os/signal"
 	"strings"
 
-	"github.com/influxdb/telegraf"
-	_ "github.com/influxdb/telegraf/outputs/all"
-	_ "github.com/influxdb/telegraf/plugins/all"
+	"github.com/toorop/telegraf"
+	_ "github.com/toorop/telegraf/outputs/all"
+	_ "github.com/toorop/telegraf/plugins/all"
 )
 
 var fDebug = flag.Bool("debug", false,

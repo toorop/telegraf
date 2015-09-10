@@ -1,14 +1,15 @@
 package leofs
 
 import (
-	"github.com/influxdb/telegraf/testutil"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"io/ioutil"
 	"log"
 	"os"
 	"os/exec"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+	"github.com/toorop/telegraf/testutil"
 )
 
 var fakeSNMP4Manager = `

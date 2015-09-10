@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/influxdb/telegraf/plugins/system/ps/common"
+	"github.com/toorop/telegraf/plugins/system/ps/common"
 )
 
 func TestDisk_usage(t *testing.T) {

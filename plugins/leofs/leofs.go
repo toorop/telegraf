@@ -3,12 +3,13 @@ package leofs
 import (
 	"bufio"
 	"fmt"
-	"github.com/influxdb/telegraf/plugins"
 	"net/url"
 	"os/exec"
 	"strconv"
 	"strings"
 	"sync"
+
+	"github.com/toorop/telegraf/plugins"
 )
 
 const oid = ".1.3.6.1.4.1.35450"
